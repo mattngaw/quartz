@@ -1,0 +1,3 @@
+{
+  "originsRegex": ["((http:\/\/localhost:[0-9]+)|(https:\/\/mattngaw.github.io))\/(diary|notebook|papers)\/.+"]
+}
