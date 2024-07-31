@@ -19,7 +19,12 @@ function boolToStringBool(b: boolean): string {
 }
 
 export default ((opts: Options) => {
-  const Comments: QuartzComponent = (_props: QuartzComponentProps) => <div class="giscus"></div>
+  const Comments: QuartzComponent = (_props: QuartzComponentProps) => {
+    if (_props.slug === "index") {
+      return <></>
+    }
+    return <div class="giscus"></div>
+  }
   Comments.afterDOMLoaded = `
       const giscusScript = document.createElement("script")
       giscusScript.src = "https://giscus.app/client.js"
