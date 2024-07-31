@@ -19,11 +19,11 @@ function boolToStringBool(b: boolean): string {
 }
 
 export default ((opts: Options) => {
-  const Comments: QuartzComponent = (_props: QuartzComponentProps) => {
-    if (_props.slug === "" ||
-        _props.slug === "notebook" ||
-        _props.slug === "diary" ||
-        _props.slug === "papers") {
+  const Comments: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
+    if (fileData.slug === "" ||
+        fileData.slug === "notebook" ||
+        fileData.slug === "diary" ||
+        fileData.slug === "papers") {
       return <div></div>
     }
     return <div class="giscus"></div>
