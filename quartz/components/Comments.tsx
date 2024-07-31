@@ -21,7 +21,7 @@ function boolToStringBool(b: boolean): string {
 export default ((opts: Options) => {
   const Comments: QuartzComponent = (_props: QuartzComponentProps) => {
     if (_props.slug === "index") {
-      return <></>
+      return <div></div>
     }
     return <div class="giscus"></div>
   }
