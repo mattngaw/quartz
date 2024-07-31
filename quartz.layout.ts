@@ -19,7 +19,7 @@ export const sharedPageComponents: SharedLayout = {
         categoryId: 'DIC_kwDOMcWW3s4ChRJA',
         mapping: "pathname",
         reactionsEnabled: true,
-        inputPosition: 'bottom',
+        inputPosition: 'top',
       }
     }),
   ],
