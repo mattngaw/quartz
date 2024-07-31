@@ -1,3 +1,8 @@
+---
+title: Digital Gardening
+tags:
+  - seed
+---
 
 
 1. **Topography Over Timelines.** Focus on building bidirectional links between my pages, rather than the chronological ordering of my pages.

@@ -14,7 +14,7 @@ This site is my [hypertext garden](https://jzhao.xyz/posts/networked-thought), w
 * [[diary/index|A leather diary]]
 * [[papers/index|A messy stack of papers]]
 
-You'll notice that all of my notes and paper reviews are available to all. Knowledge should be [[open-source|open-source.]]
+You'll notice that all of my notes and paper reviews are available to all. Knowledge should be [[open-source|open-source]]. You can see all of my tags [[tags|here]].
 
 There are many things I enjoy doing in my free time, roughly in order of my current interest and time commitment: lifting, running, playing video games, watching anime, hiking, playing basketball, and [playing chess](https://lichess.org/@/skylake02).
 
