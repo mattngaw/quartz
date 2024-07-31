@@ -20,10 +20,7 @@ function boolToStringBool(b: boolean): string {
 
 export default ((opts: Options) => {
   const Comments: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-    if (fileData.slug === "" ||
-        fileData.slug === "notebook" ||
-        fileData.slug === "diary" ||
-        fileData.slug === "papers") {
+    if (fileData.slug === "index") {
       return <div></div>
     }
     return <div class="giscus"></div>
