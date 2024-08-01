@@ -2,6 +2,8 @@
 title: Courses @ CMU
 date: 2024-03-25
 description: my thoughts on courses at Carnegie Mellon
+tags:
+  - "#evergreen"
 ---
 
 <style> summary { cursor: pointer } </style>
