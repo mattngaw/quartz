@@ -3,7 +3,7 @@ title: "CoRAM: an in-fabric memory architecture for FPGA-based computing"
 date: 2024-7-28
 tags:
   - fpga
-  - evergreen
+  - sapling
 ---
 **Authors:** Eric S. Chung, James C. Hoe, Ken Mai<br>
 **Conference:** FPGA 2011<br>
