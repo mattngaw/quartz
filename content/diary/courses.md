@@ -4,6 +4,7 @@ date: 2024-03-25
 description: my thoughts on courses at Carnegie Mellon
 tags:
   - "#evergreen"
+  - cmu
 ---
 
 <style> summary { cursor: pointer } </style>
