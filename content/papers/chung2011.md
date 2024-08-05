@@ -83,10 +83,10 @@ To implement the cache, two CoRAMs are used—one for a tag array, one for a dat
 ### 4. Evaluation of CoRAM
 
 #### Methodology
-The paper uses a cycle-level simulation model written in [[Bluespec SystemVerilog]] to gather performance data. Synthesis results are used to gather power and area data.
+The paper uses a cycle-level simulation model written in [[Bluespec SystemVerilog]] to gather performance data. Synthesis results of the RTL are used to gather power and area data.
 
 #### Results
-...
+
 
 ## Biggest Weakness
 
