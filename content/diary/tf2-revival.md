@@ -2,7 +2,6 @@
 title: The Revival of Team Fortress 2
 tags:
   - video-games
-  - tf2
   - sapling
 date: 2024-8-2
 ---

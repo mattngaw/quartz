@@ -3,6 +3,7 @@ title: Seasons
 tags:
   - seed
   - self
+date: 2024-7-28
 ---
 A *wave to earth* [song](https://open.spotify.com/track/5VBjyOQzqlPNgdRPMM6prF?si=477bd753dbae44e5).
 

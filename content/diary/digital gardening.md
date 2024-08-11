@@ -3,7 +3,6 @@ title: Digital Gardening
 tags:
   - sapling
 date: 2024-8-10
-updated: 2024-8-11
 ---
 I've recently come across this notion of a *digital garden*, and I think it aligns perfectly with my personal belief that my learning and knowledge should be [[open-source]]. I've done a lot of reading[^1][^2][^3][^4][^5] on digital gardens, so I'll be summarizing what I've learned into my own personal ethos for digital gardening.
 

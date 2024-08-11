@@ -1,13 +1,13 @@
 ---
 title: Fall '24 Health Plan
 tags:
-  - self
   - health
-date: 2024-8-5
+  - sapling
+date: 2024-8-10
 ---
 > [!warning] Work in Progress!
 > 
-> I'll be working on this page over the next few days!
+> I'll be working on this page over the next few weeks!
 
 I'm calling this post a "health" plan because it describes both a workout plan and diet/nutrition plan. I think it's time I formalized planning out my workouts and nutrition by explicitly writing it out. These plans will largely contain workout details—the only notes I might have about nutrition is whether I'm on a bulk/cut/sustain, plus any extraneous details about what I'm eating.
 
