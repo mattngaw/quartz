@@ -6,11 +6,6 @@ tags:
   - "#evergreen"
   - cmu
 ---
-
-<style> summary { cursor: pointer } </style>
-
->[!warning]
->\[2024-07-29\] This post will be subject to reformatting changes soon.
 ## Foreword
 
 The following is inspired by the many other CMU course reviews out there on the
@@ -32,16 +27,14 @@ If you're a CMU ECE student, I also recommend looking at Professor James Hoe's [
 
 These emojis act as qualifiers to describe my experience with each class.
 
-- ⭐️: Transformative. It gave me a perspective-change.
-
-- ❤️: Loved/enjoyed. I had a fun with this class.
-
-- 🔨: Time-consuming. Conceptually hard, and/or just lots of work.
+- ⭐️ means *transformative*. It gave me a perspective-change.
+- ❤️ means I loved the course. I had fun and found it enjoyable.
+- 🔨 means time-consuming. Conceptually hard, and/or just lots of work.
 
 I've included the number of units next to each course, and for additional 
 context, I've included the average workload in terms of hours as reported by 
 students in Faculty Course Evaluations (at the time of writing). These hours are
-an underestimate, since they do not include things like TAing and research. I've
+likely an underestimate, since they do not include things like TAing and research. I've
 also included a list of any other commitments I had during each semester. The 
 commitments are listed in descending order of impact. Lastly, I've left a small
 blurb under some semesters describing how I felt about the semester/workload.
