@@ -1,6 +1,6 @@
 ---
 title: Courses @ CMU
-date: 2024-03-25
+date: 2024-8-10
 description: my thoughts on courses at Carnegie Mellon
 tags:
   - "#evergreen"
@@ -14,12 +14,17 @@ tags:
 ## Foreword
 
 The following is inspired by the many other CMU course reviews out there on the
-internet. Just search `cmu course reviews`, and you can find pages like this. 
-However, pretty much every other site you will find will be from a CMU SCS 
+internet. Just search `cmu course reviews` in your favorite search engine, and you can find pages like this. However, pretty much every other site you will find will be from a CMU SCS 
 student/alum.[^1] I have yet to see a course review post from a CMU ECE
 student/alum. Maybe this will inspire people to make more! 🤞
 
 [^1]: Here are some of my favorites course reviews: [1](https://fanpu.io/courses/) [2](https://www.ericzheng.org/thoughts/index.html) [3](https://wanshenl.me/courses/reviews/) [4](https://thenumb.at/cmu/)
+
+If you're a current CMU student, I recommend you plan your semesters using ScottyLabs' [CMU Courses](https://cmucourses.com/) tool. You want to have an idea of how many hours your planned coursework will take from you. Broadly speaking, and I mean *broadly*, 40 to 50 hours for one semester is a balanced enough schedule that will leave you enough time for extracurriculars, hobbies, exercise, and a healthy social life. For the average person[^2], any more hours will mean sacrificing something else.
+
+[^2]: "But what if I'm not the *average person*? I'm built different!" You might be different. To each their own. I'll say it again, I'm giving *broad* suggestions. Don't oversubscribe, or something else will have to give.
+
+If you're a CMU ECE student, I also recommend looking at Professor James Hoe's [advice for CMU ECE undergrads](https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=advice_columa), and these [CMU ECE & CS Course Guides](https://github.com/CMU-HKN/CMU-ECE-CS-Guide). I wish I stumbled upon Professor Hoe's advice in my freshman year.
 
 ----
 
