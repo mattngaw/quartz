@@ -10,8 +10,9 @@ I'm Matt. I am a grad student at [Carnegie Mellon University](https://www.cmu.ed
 
 This site is my [hypertext garden](https://jzhao.xyz/posts/networked-thought), where among the growing plants you can find:
 
-* [[notebook/index|A spiral-bound notebook]]
 * [[diary/index|A leather diary]]
+* [[books/index|A dusty bookshelf]]
+* [[notebook/index|A spiral-bound notebook]]
 * [[papers/index|A messy stack of papers]]
 
 You'll notice that all of my notes and paper reviews are available to all. Knowledge should be [[open-source|open-source]]. You can see all of my tags [[tags|here]].
