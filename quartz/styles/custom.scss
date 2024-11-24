@@ -9,4 +9,18 @@ a.no-svg .external-icon {
   display: none
 }
 
+img[alt*="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[alt*="half"] {
+    width: 50%;
+}
+
+img[alt*="twothirds"] {
+    width: 66%;
+}
+
 // put your custom CSS here!

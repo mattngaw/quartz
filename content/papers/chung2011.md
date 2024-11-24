@@ -32,11 +32,11 @@ The CoRAM architecture abstracts an FPGA device into four components:
 3. **Control Threads.** Programmer-defined "FSMs" that decide when and how to interact with memory.
 4. **Channels.** How the logic communicates with control threads.
 
-<img src="../assets/chung2011_figure2.png" style="width: 50%; display: block; margin: auto">
+![[chung2011_figure2.png|half|center]]
 
 The CoRAM memory architecture is exposed to the programmer via control actions, which effectively act as the CoRAM "ISA", defining legal operations for interacting with memory.
 
-<img src="../assets/chung2011_figure3.png" style="width: 60%; display: block; margin: auto">
+![[chung2011_figure3.png|twothirds|center]]
 
 The paper asserts that these memory operations are generic enough to implement all kinds of memory "personalities" or archetypes. An important design decision that they made was to express the control actions in a high-level "C-based" software language. On the programmer side, orchestrating data movement in a higher-level abstraction simplifies the design effort.
 
@@ -50,7 +50,7 @@ The paper puts forth their own example microarchitecture that implements the CoR
 - CoRAM clusters share a single router.
 - Clusters are connected globally using a 2D mesh.
 
-<img src="../assets/chung2011_figure5.png" style="width: 60%; display: block; margin: auto">
+![[chung2011_figure5.png|half|center]]
 
 The paper mentions that ideally the microarchitectural components of CoRAM should be hardened, reducing FPGA resource overhead and shortening the critical path of CoRAM.
 
@@ -59,7 +59,7 @@ The paper mentions that ideally the microarchitectural components of CoRAM shoul
 #### Black-Scholes
 The Black-Scholes algorithm implemented in hardware can be abstracted as a black box, with inputs streamed in and outputs streamed out. Thus, the memory personality suited for this kernel is a streaming FIFO, expressed in the following code:
 
-<img src="../assets/chung2011_figure8.png" style="width: 60%; display: block; margin: auto">
+![[chung2011_figure8.png|twothirds|center]]
 
 While not an entirely interesting example—and not one that is terribly complex to implement in RTL—it is expressed in just 17 lines.
 #### Matrix-Matrix Multiplication
@@ -68,16 +68,16 @@ The classic blocked matrix multiplication. Some important details to notice are:
 - The CoRAMs for sub-matrices A and B are fed data in different strides, one row-major and one column-major.
 - The control thread sends a signal back to the kernel letting it know that the data is ready (line 12).
 
-<img src="../assets/chung2011_figure11.png" style="width: 60%; display: block; margin: auto">
+![[chung2011_figure11.png|twothirds|center]]
 
 #### Sparse Matrix-Vector Multiplication
 A much more interesting example that makes use of [[compressed sparse row]] format to store sparse matrices. The overall design has the following structure:
 
-<img src="../assets/chung2011_figure13.png" style="width: 60%; display: block; margin: auto">
+![[chung2011_figure13.png|half|center]]
 
 The matrix rows indices are read into a FIFO. The rows are divided among processing elements via the work scheduler. A processing element reads in matrix columns and values for its row. It also reads in vector values into a cache, which will soon be described. The operands are multiplied and then accumulated. A cache is used to support the random access pattern of the vector, as the placement of values within a row of a sparse matrix is data-dependent.
 
-<img src="../assets/chung2011_figure14.png" style="width: 60%; display: block; margin: auto">
+![[chung2011_figure14.png|twothirds|center]]
 
 To implement the cache, two CoRAMs are used—one for a tag array, one for a data array, just like most CPU cache organizations. The surrounding logic is implemented using reconfigurable logic.
 ### 4. Evaluation of CoRAM
