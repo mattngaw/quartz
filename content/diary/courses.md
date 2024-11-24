@@ -9,15 +9,13 @@ tags:
 ## Foreword
 
 The following is inspired by the many other CMU course reviews out there on the
-internet. Just search `cmu course reviews` in your favorite search engine, and you can find pages like this. However, pretty much every other site you will find will be from a CMU SCS 
+internet. Just search for `cmu course reviews` on the internet, and you can find pages like this. However, pretty much every other post you will find will be from a CMU SCS 
 student/alum.[^1] I have yet to see a course review post from a CMU ECE
 student/alum. Maybe this will inspire people to make more! 🤞
 
 [^1]: Here are some of my favorites course reviews: [1](https://fanpu.io/courses/) [2](https://www.ericzheng.org/thoughts/index.html) [3](https://wanshenl.me/courses/reviews/) [4](https://thenumb.at/cmu/)
 
-If you're a current CMU student, I recommend you plan your semesters using ScottyLabs' [CMU Courses](https://cmucourses.com/) tool. You want to have an idea of how many hours your planned coursework will take from you. Broadly speaking, and I mean *broadly*, 40 to 50 hours for one semester is a balanced enough schedule that will leave you enough time for extracurriculars, hobbies, exercise, and a healthy social life. For the average person[^2], any more hours will mean sacrificing something else.
-
-[^2]: "But what if I'm not the *average person*? I'm built different!" You might be different. To each their own. I'll say it again, I'm giving *broad* suggestions. Don't oversubscribe, or something else will have to give.
+If you're a current CMU student, I recommend you plan your semesters using ScottyLabs' [CMU Courses](https://cmucourses.com/) tool. You want to have an idea of how many hours your planned coursework will require. Broadly speaking, 40 to 50 hours for one semester is a balanced enough schedule that will leave you enough time for everything in your life other than classes.
 
 If you're a CMU ECE student, I also recommend looking at Professor James Hoe's [advice for CMU ECE undergrads](https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=advice_columa), and these [CMU ECE & CS Course Guides](https://github.com/CMU-HKN/CMU-ECE-CS-Guide). I wish I stumbled upon Professor Hoe's advice in my freshman year.
 
@@ -27,51 +25,39 @@ If you're a CMU ECE student, I also recommend looking at Professor James Hoe's [
 
 These emojis act as qualifiers to describe my experience with each class.
 
-- ⭐️ means *transformative*. It gave me a perspective-change.
+- ⭐️ means *transformative*. It gave me a perspective change.
 - ❤️ means I loved the course. I had fun and found it enjoyable.
-- 🔨 means time-consuming. Conceptually hard, and/or just lots of work.
-
-I've included the number of units next to each course, and for additional 
-context, I've included the average workload in terms of hours as reported by 
-students in Faculty Course Evaluations (at the time of writing). These hours are
-likely an underestimate, since they do not include things like TAing and research. I've
-also included a list of any other commitments I had during each semester. The 
-commitments are listed in descending order of impact. Lastly, I've left a small
-blurb under some semesters describing how I felt about the semester/workload.
+- 🔨 means time-consuming. Not necessarily conceptually hard, just lots of work.
 
 Some semesters, especially the earlier ones, are missing these details, mostly 
 because I've ~~shut them out~~ forgotten them. The COVID years were 
 terrible for me.
 
-Here is what I tentatively have planned for next year (my [IMB](https://www.ece.cmu.edu/academics/integrated.html) year).
+## Spring 2025 (Upcoming)
 
-## Fall 2024 (Upcoming)
+- 18-725 Advanced Digital Integrated Circuit Design (12)
 
-- 18-622 Digital Integrated Circuit Design
+- 18-742 Computer Architecture and Systems (12)
 
-- 15-749 Computing After CPUs: Recent Research in Non-Von Neumann Computer Architecture
+- 15-618 Parallel Computer Architecture and Programming (12)
 
-- 17-715 Advanced Topics in Hardware Security
+- (Research) ABSTRACT/CORGi: Dataflow Infrastructure (12)
 
-- 18-640 Hardware Arithmetic for Machine Learning (*tentative*)
+- (Research) SPIRAL: Application-Based Fault-Tolerance, Radiation Hardening, Floating-Point
 
-- Research?
+## Fall 2024 (Current)
 
-- (TA) ???
+- ⭐️ 🔨 18-622 Digital Integrated Circuit Design (12)
 
-## Spring 2025 (Future)
+- ⭐️ 15-749 Computing After CPUs: Recent Research in Non-Von Neumann Computer Architecture (12)
 
-- 18-725 Advanced Digital Integrated Circuit Design
+- 18-640 Hardware Arithmetic for Machine Learning (12)
 
-- 18-742 Computer Architecture and Systems
+- (Research) ABSTRACT/CORGi Dataflow Infrastructure (12)
 
-- ???
+- (TA) 18-344 Computer Systems and the Hardware-Software Interface
 
-- Research?
-
-- (TA) ???
-
-Here are my thoughts on the courses that I have taken.
+- ⭐️ 17-715 Advanced Topics in Hardware Security (Audit)
 
 ## Spring 2024
 
@@ -81,52 +67,40 @@ Here are my thoughts on the courses that I have taken.
    put together so much code from scratch. By the end of the semester, we were
    able to cobble together a compiler and runtime environment that *in 
    principle* performed [mark-and-sweep garbage collection](https://en.wikipedia.org/wiki/Tracing_garbage_collection#Na%C3%AFve_mark-and-sweep)
-   on top of implementing the [C0 language](https://c0.cs.cmu.edu/docs/c0-reference.pdf).
+   on top of compiling for the [C0 language](https://c0.cs.cmu.edu/docs/c0-reference.pdf).
 
 - [18-341](https://github.com/CMU-HKN/CMU-ECE-CS-Guide/blob/master/electives/18341.md) Logic Design and Verification (12)
 
-   - Took this for extra SystemVerilog practice. I personally did not find 
-   verification interesting, but SV has some nifty constructs. I was chilling
-   in the class until USB.
+   - Took this for extra SystemVerilog practice. I personally did not find verification interesting, but SV has some nifty constructs. 
 
 - 🔨 [18-500](https://course.ece.cmu.edu/~ece500/projects/) ECE Design Experience (12)
 
    - My salty, reductionist take on what happened to my team: set ourselves up for
-   Icarian failure by choosing a very difficult project, failed to get early enough feedback
+   Icarian failure by choosing a difficult project, failed to get early enough feedback
    to bring us back down to earth, grinded ourselves to the bone just to get something 
-   barely working at the end, with lots of busy documentation work interspersed.
+   barely working at the end, with lots of busy documentation work throughout.
 
 - 85-241 Social Psychology (9)
 
 - (Research) Application-Based Fault-Tolerance, Radiation Hardening, Floating-Point ($)
 
-**FCE Hours**: 56, definitely was at least 56. 
+**FCE Hours**: 56, was at least 56 (probably more at some points). 
 
-**Other Commitments**: Gym 5-6x a week (until the last quarter of the semester), SO time,
-some social life (in the first two thirds), a spring break trip (do not regret despite the later pain).
-
-**Workload**: The highest I have ever experienced. This semester there were probably 10ish days
-where I effectively did not sleep (1-2 hours max, I can't operate with truly zero sleep). Call it
-cognitive dissonance and justification of effort, but in this semester I feel I learned the most I ever
-have despite the suffering. I do not regret going through the struggle.
+**Workload**: The highest I have ever experienced. This semester there were probably 10ish days where I effectively did not sleep (1-2 hours max, I can't operate with truly zero sleep). Call it cognitive dissonance/justification of effort, but in this semester I feel I learned the most I ever have despite the suffering. I do not regret going through the struggle.
 
 ## Fall 2023
 
 - ⭐️ [18-740](https://github.com/CMU-HKN/CMU-ECE-CS-Guide/blob/master/electives/18740.md) Modern Computer Architecture and Design (12)
 
-   - Conceptually interesting. It was the first time I was properly exposed to out-of-order execution.
-   The labs could be a lot better, since I did not gain much insight from them. Logistically, the class
-   could have been run a lot better (more TAs were definitely needed).
+   - Conceptually interesting. It was the first time I was properly exposed to out-of-order execution. The labs could be a lot better, since I did not gain much insight from them.
 
 - 🔨 [18-643](https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-643_reconfigurable_logic) Reconfigurable Hardware (12)
 
-   - On first glance, this class looks like a class on FPGAs and HLS. However, much of the lecture content covers 
-   those topics, but the labs make this class a hardware design and optimization class in disguise. It was painful to
-   use Vitis HLS, but otherwise I learned a lot about hardware design (a tool-agnostic skill).
+   - On first glance, this class looks like a class on FPGAs and HLS. Much of the lecture content covers those topics, but the labs make this class a hardware design and optimization class in disguise. It was painful to use Vitis HLS, but otherwise I learned a lot about hardware design (a tool-agnostic skill).
 
 - ❤️ [18-220](https://youtu.be/wfXyBDZX-zw) Electronic Devices and Analog Circuits (12)
 
-   - Fundamental, and Professor Budnik made it very enjoyable.
+   - Fundamental, and Professor Budnik made it incredibly enjoyable.
 
 - 82-137 Chinese Calligraphy: Culture and Skills (9)
 
@@ -136,15 +110,13 @@ have despite the suffering. I do not regret going through the struggle.
 
    - Comically chill. Like, too chill. Like, "should this class even be offered" chill.
 
-- 98-154 Stuco: Intro to Open-Source FPGA & ASIC Chip Design (was not registered, I just showed up lol)
+- 98-154 Stuco: Intro to Open-Source FPGA & ASIC Chip Design (not registered, just showed up lol)
 
-- (Research) 18-580 Application-Based Fault-Tolerance, Radiation Hardening, Floating-Point (9)
+- (Research) Application-Based Fault-Tolerance, Radiation Hardening, Floating-Point (9)
 
 - (TA) 18-344 Computer Systems and the Hardware-Software Interface
 
 **FCE Hours**: 45, felt like 55
-
-**Other Commitments**: Gym 5-6x a week, running 1x a week, SO time, internship search
 
 **Workload**: High, mainly because of 643 + TAing + research.
 
@@ -152,7 +124,7 @@ have despite the suffering. I do not regret going through the struggle.
 
 - ⭐️ ❤️ [18-447](https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-447_introduction_to_computer_architecture) Introduction to Computer Architecture (12)
 
-   - Solidified my love for computer architecture after 344. Built a superscalar RISC-V core. My project group came in second in both (performance and performance-per-watt) categories!
+   - Solidified my love for computer architecture after 344. Built a 2-way superscalar in-order RISC-V core.
 
 - [18-349](https://github.com/CMU-HKN/CMU-ECE-CS-Guide/blob/master/electives/18349.md) Introduction to Embedded Systems (12)
 
@@ -162,14 +134,9 @@ have despite the suffering. I do not regret going through the struggle.
 
 - (Research) [SPIRAL](http://www.spiral.net/): Modular Arithmetic, [Finite Fields](https://en.wikipedia.org/wiki/Finite_field), and Encryption
 
-   - After this semester of research, I requested Prof. Franchetti to change my research project. I tried my best to learn the math, but it did not 
-   inspire me, and so I struggled to make progress.
-
 - (TA) 18-213 Introduction to Computer Systems
 
 **FCE Hours**: 43, felt like 48
-
-**Other Commitments**: Gym 5-6x a week, running 1x a week, SO time, stressing about summer
 
 **Workload**: Moderate. 447 became more intense (and fun) at the end. So did 349. The gen-eds balanced out the heavier technicals well.
 
@@ -177,7 +144,7 @@ have despite the suffering. I do not regret going through the struggle.
 
 - ⭐️ ❤️ [18-344](https://course.ece.cmu.edu/~ece344/) Computer Systems and the Hardware-Software Interface (12)
 
-   - Pivotal. This class put me on the path of computer architecture/systems and hardware.
+   - Pivotal. This class put me on the path of computer architecture/systems.
 
 - 18-290 Signals and Systems (12)
 
@@ -193,15 +160,13 @@ have despite the suffering. I do not regret going through the struggle.
 
 **FCE Hours**: 44, felt like 48
 
-**Other Commitments**: Gym 5-6x a week, SO time
-
 **Workload**: Moderate.
 
 ## Spring 2022
 
 - 🔨 18-240 Structure and Design of Digital Systems (12)
 
-   - 240 was a struggle for me; I did not understand how cool hardware could be
+   - 240 was a struggle for me; It was tedious and laborious. I did not understand how cool hardware could be
    until I got to later courses.
 
 - ⭐️ [15-150](http://www.cs.cmu.edu/~15150/) Principles of Functional Programming (12)
@@ -211,7 +176,7 @@ have despite the suffering. I do not regret going through the struggle.
 
 - 36-226 Introduction to Statistical Inference (9)
 
-   - Why the heck did I take this class?
+   - Why the heck did I take this class? Wasn't interesting, didn't help me in my degree at all!
 
 - 15-281 Artificial Intelligence: Representation and Problem Solving (12)
 
@@ -221,10 +186,7 @@ have despite the suffering. I do not regret going through the struggle.
 
 **FCE Hours**: 50. At this time in my undergrad, I was not ready for 50.
 
-**Other Commitments**: Gym, club frisbee, intramural basketball, social life
-
-**Workload**: Should have been moderate—or with the right focus, even a light workload—but for a variety of reasons it was a heavy load. 
-This semester served as a wakeup call for me to reflect on what my priorities are.
+**Comments**: This semester served as a wakeup call for me to reflect on what my priorities are.
 
 ## Fall 2021 (first time @ Pitt)
 
@@ -238,8 +200,6 @@ This semester served as a wakeup call for me to reflect on what my priorities ar
 
 **FCE Hours**: 43, felt like 43
 
-**Other Commitments**: Running and gym, club frisbee, social life
-
 **Workload**: Light/moderate
 
 ## Spring 2021 (remote @ home)
@@ -252,9 +212,7 @@ This semester served as a wakeup call for me to reflect on what my priorities ar
 
 - 21-127 Concepts of Mathematics (12)
 
-**Other Commitments**: Track training, gym, and this time, actually zero social life.
-
-**Comments**: My worst semester "at" CMU, and probably the worst experience of my life.
+**Comments**: My worst semester "at" CMU, and probably the roughest experience I've had.
 
 ## Fall 2020 (remote @ home)
 
@@ -264,10 +222,7 @@ This semester served as a wakeup call for me to reflect on what my priorities ar
 
 - 24-101 Fundamentals of Mechanical Engineering (12)
 
-- 39-109 Grand Challenge Freshman Seminar: Climate Change (9)
-
-**Other Commitments**: Track training, gym, and no social life
-except for my one hometown friend Evan who was also stuck at home like me.
+- 39-109 Freshman Seminar: Climate Change (9)
 
 **Comments**: Although I was bummed to be at home, the novelty of Zoom college had not worn out.
 

@@ -35,7 +35,7 @@ At the time, I think I had in my head this fantasy of somehow playing competitiv
 
 I'm not sure when I stopped playing TF2. I definitely did not play during college—I didn't have a Windows computer to play it on. Yet even if I were able to play, I don't know if I would have enjoyed it. Most of my friends were also busy with college, and even in moments when we were free, we had moved on to trying other games like Apex Legends, Overwatch 2, [BattleBit](https://store.steampowered.com/app/671860/BattleBit_Remastered/), our annual 1-month Minecraft server. Hell, even [Stick Fight](https://store.steampowered.com/app/674940/Stick_Fight_The_Game/). At the time, TF2 was a dead game, not only to us, but seemingly to the rest of its player-base. My understanding is that the game then was riddled with hackers that looked like the following:
 
-<img src="../assets/tf2-hacker.jpg" style="width: 60%; display: block; margin: 40px auto">
+![[tf2-hacker.jpg|center|half]]
 
 Snipers, spinning like crazy, hopping around servers, insta-killing people via rapid headshots. It was impossible to play a reasonable game without a hacker joining the server and stomping on everyone. TF2 was no longer fun, and the developers didn't seem keen on fixing the game. That is, until about a month ago from the time of writing.
 
